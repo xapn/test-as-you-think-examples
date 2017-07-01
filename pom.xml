@@ -13,6 +13,35 @@
     <description>Didactic and funny examples of use of TestAsYouThink</description>
     <url>https://github.com/xapn/test-as-you-think-examples</url>
 
+    <profiles>
+        <profile>
+            <id>old-fashion-testing</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <groups>testasyouthink.example.tag.OldFashion</groups>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>testasyouthink-fashion</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <groups>testasyouthink.example.tag.TestAsYouThinkFashion</groups>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>

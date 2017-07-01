@@ -23,6 +23,9 @@
 package testasyouthink.example.grimm;
 
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import testasyouthink.example.tag.OldFashion;
+import testasyouthink.example.tag.TestAsYouThinkFashion;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static testasyouthink.TestAsYouThink.givenSutClass;
@@ -30,6 +33,7 @@ import static testasyouthink.TestAsYouThink.givenSutClass;
 public class ThePrinceKissingSnowWhiteTest {
 
     @Test
+    @Category(OldFashion.class)
     public void should_wake_snow_white_up_the_old_fashion() {
         // GIVEN
         ThePrince thePrinceAsSut = new ThePrince();
@@ -45,6 +49,7 @@ public class ThePrinceKissingSnowWhiteTest {
     }
 
     @Test
+    @Category(TestAsYouThinkFashion.class)
     public void should_wake_snow_white_up_with_testasyouthink() {
         givenSutClass(ThePrince.class)
                 .given(sut -> sut.setBesotted(true))
