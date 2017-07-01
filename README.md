@@ -1,5 +1,11 @@
 Didactic and funny examples of use of [TestAsYouThink](https://xapn.github.io/test-as-you-think)
 
+Matter | Badges
+------ | ------
+Software factory    | [![Build Status for master](https://travis-ci.org/xapn/test-as-you-think-examples.svg?branch=master)](https://travis-ci.org/xapn/test-as-you-think-examples) [![License: GNU LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)
+Source code         | [![LoC](https://tokei.rs/b1/github/xapn/test-as-you-think-examples?category=code)](https://github.com/xapn/test-as-you-think-examples) [![Files](https://tokei.rs/b1/github/xapn/test-as-you-think-examples?category=files)](https://github.com/xapn/test-as-you-think-examples) [![Total lines](https://tokei.rs/b1/github/xapn/test-as-you-think-examples?category=lines)](https://github.com/xapn/test-as-you-think-examples) [![Comments](https://tokei.rs/b1/github/xapn/test-as-you-think-examples?category=comments)](https://github.com/xapn/test-as-you-think-examples) [![Blank lines](https://tokei.rs/b1/github/xapn/test-as-you-think-examples?category=blanks)](https://github.com/xapn/test-as-you-think-examples)
+Social coding       | [![Twitter URL](https://img.shields.io/twitter/url/https/github.com/xapn/test-as-you-think-examples.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fxapn%2Ftest-as-you-think-examples) [![Twitter Follow](https://img.shields.io/twitter/follow/xengineer.svg?style=social&label=Follow)](https://twitter.com/intent/follow?screen_name=xengineer) [![GitHub stars](https://img.shields.io/github/stars/xapn/test-as-you-think-examples.svg?style=social&label=Star)](https://github.com/xapn/test-as-you-think-examples/stargazers) [![GitHub watchers](https://img.shields.io/github/watchers/xapn/test-as-you-think-examples.svg?style=social&label=Watch)](https://github.com/xapn/test-as-you-think-examples/watchers) [![GitHub forks](https://img.shields.io/github/forks/xapn/test-as-you-think-examples.svg?style=social&label=Fork)](https://github.com/xapn/test-as-you-think-examples/network)
+
 # License
 
 The *TestAsYouThink* examples are distributed under the GNU LGPLv3 license. The LGPLv3 license is included in the LICENSE.txt file. More information about this license is available at [http://www.gnu.org](http://www.gnu.org).
